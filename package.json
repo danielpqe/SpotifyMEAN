@@ -4,7 +4,7 @@
   "description": "Proyecto API Rest con nodeJS",
   "main": "index.js",
   "scripts": {
-    "start":"nodemon index.js",
+    "start": "nodejs index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "danielpqe",
@@ -16,7 +16,7 @@
     "connect-multiparty": "~2.1.0",
     "jwt-simple": "~0.5.1",
     "moment": "~2.21.0",
-    "mongoose": "~5.0.11",
+    "mongoose": "^4.7.4",
     "mongoose-pagination": "~1.0.0"
   },
   "devDependencies": {
