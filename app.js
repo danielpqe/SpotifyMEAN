@@ -17,7 +17,7 @@ app.use(bodyParser.json());
 //Carga de rutas base
 app.use('/api',user_routes);
 
-
+//rutas prueba, yo no se usa
 // app.get('/pruebas',function (req,res) {
 //     res.status(200).send({message:'Hello World!'});
 // });
